@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BlackJack
+﻿namespace BlackJack
 {
     class Program
     {
         static void Main(string[] args)
         {
+            BlackJackGame game = new BlackJackGame();
+            game.Play();
         }
     }
 }
